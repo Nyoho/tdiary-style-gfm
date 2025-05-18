@@ -67,9 +67,8 @@ module TDiary
 												options:{
 													render: { unsafe: true },
 													extension: {
-														tagfilter: false,
-														autolink: true,
-														table: true
+														header_ids: nil,
+														tagfilter: false
 													}
 												}
 											)
